@@ -1,5 +1,4 @@
 # SASS STARTER
-==============
 
 HAVE FUN
 
