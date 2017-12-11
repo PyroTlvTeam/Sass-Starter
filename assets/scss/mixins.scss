@@ -14,11 +14,6 @@
 		right: auto;
 	}
 }
-@mixin header-font {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-}
 @mixin responsive-img {
 	display: block;
 	max-width: 100%;
