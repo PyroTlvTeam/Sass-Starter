@@ -1,5 +1,5 @@
-SASS STARTER-H1
-======
+# SASS STARTER
+==============
 
 HAVE FUN
 
