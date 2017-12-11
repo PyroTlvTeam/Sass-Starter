@@ -1,0 +1,55 @@
+@mixin push-auto {
+	margin: { 
+		left: auto;
+		right: auto;
+	}
+}
+@mixin push-left {
+	margin: { 
+		left: auto;
+	}
+}
+@mixin push-right {
+	margin: { 
+		right: auto;
+	}
+}
+@mixin header-font {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+@mixin responsive-img {
+	display: block;
+	max-width: 100%;
+}
+@mixin align-vertical {
+	@include position (relative, $top: 50%);
+	@include translate(0, -50%);
+
+}
+@mixin translate($x, $y) {
+	transform: translate($x, $y);
+}
+@mixin flex($wrap: null, $justify: null, $align: null, $direction: null) {
+	display: flex;
+	flex-wrap: $wrap;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+	position: $position;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+	left: $left;
+}
+@mixin background($color: null, $img: null) {
+	background-color: $color;
+	background-image: $img;
+}
+@mixin linearGradient($direction: to bottom, $top: null, $bottom: null){
+	background: $top;
+	background-image: linear-gradient(to bottom,  $top 0%,$bottom 100%);
+}
