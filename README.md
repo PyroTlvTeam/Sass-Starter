@@ -1,5 +1,4 @@
 # SASS STARTER
 
-HAVE FUN
-
-BY BEN & YONATAN
+~　ＨＡＶＥ　ＦＵＮ　~
+Ｂｙ　Ｂｅｎ　＆　Ｙｏｎａｔａｎ
