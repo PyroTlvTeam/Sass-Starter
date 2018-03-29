@@ -48,3 +48,19 @@
 	background: $top;
 	background-image: linear-gradient(to bottom,  $top 0%,$bottom 100%);
 }
+
+@mixin descending-z-index($count: 30) {
+	position: relative;
+	>* {
+		position: relative;
+		$target: 0;
+		$index: $count;
+		@while $index>0 {
+			&:nth-child(#{$target}) {
+				z-index: #{$index};
+			}
+			$target: $target+1;
+			$index: $index - 1;
+		}
+	}
+}

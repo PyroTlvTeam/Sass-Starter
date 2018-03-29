@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200, 400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import 'lib/reset';
 @import 'lib/bootstrap-grid';
 @import 'vars';
@@ -11,8 +10,10 @@
 }
 
 body {
-	font-family: 'Poppins', sans-serif;
-	background: $bg-grey;
+	h1 {
+		color: red;
+		font: $h1;
+	}
 }
 
 a {
